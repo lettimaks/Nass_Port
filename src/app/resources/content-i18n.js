@@ -2,15 +2,15 @@ import { InlineCode } from "@/once-ui/components";
 
 const createI18nContent = (t) => {
     const person = {
-        firstName: 'Selene',
-        lastName:  'Yu',
+        firstName: 'Nasser',
+        lastName:  'El Qouar',
         get name() {
             return `${this.firstName} ${this.lastName}`;
         },
         role:      t("person.role"),
         avatar:    '/images/avatar.jpg',
-        location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-        languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+        location:  'Kempton Park, Gauteng',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+        languages: ['English', 'Afrikaans']  // optional: Leave the array empty if you don't want to display languages
     }
 
     const newsletter = {
@@ -28,9 +28,19 @@ const createI18nContent = (t) => {
             link: 'https://github.com/once-ui-system/nextjs-starter',
         },
         {
+            name: 'Itch.io',
+            icon: 'github',
+            link: 'https://genganas.itch.io/',
+        },
+        {
+            name: 'Artstation',
+            icon: 'github',
+            link: 'https://www.artstation.com/genganas9',
+        },
+        {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'https://www.linkedin.com/company/once-ui/',
+            link: 'https://www.linkedin.com/in/nasser-el-qouar/',
         },
         {
             name: 'X',
